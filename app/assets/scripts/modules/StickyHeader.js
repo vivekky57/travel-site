@@ -39,7 +39,7 @@ class StickyHeader{
         }
         this.previousScrollY =window.scrollY
    }
-
+   
     calcSection(el){
         if(window.scrollY + this.browserHeight > el.offsetTop && window.scrollY < el.offsetTop + el.offsetHeight){
             let scrollPercent = el.getBoundingClientRect().top / this.browserHeight*100
