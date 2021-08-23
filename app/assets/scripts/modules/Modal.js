@@ -25,7 +25,7 @@ class Modal{
     }
 
     openTheModal(){
-        
+        // e.preventDefault()
         this.modal.classList.add("modal--is-visible")
     }
     closeThemodal(){
