@@ -10,26 +10,29 @@
     max-width: 976px;
   }
 
-  &--narrow{
+  &--narrow {
     max-width: 470px;
   }
 
-  &--no-padding-until-medium{
-    padding-left:0;
+  &--no-padding-until-medium {
+    padding-left: 0;
     padding-right: 0;
-    @mixin atMedium{
+
+    @mixin atMedium {
       padding-left: 18px;
-      padding-right: 18px;  
+      padding-right: 18px;
     }
-  } 
-  &--no-padding-until-large{
-    padding-left:0;
+  }
+
+  &--no-padding-until-large {
+    padding-left: 0;
     padding-right: 0;
-    @mixin atLarge{
+
+    @mixin atLarge {
       padding-left: 18px;
-      padding-right: 18px;  
+      padding-right: 18px;
     }
-  } 
+  }
 
   .wrapper {
     padding-left: 0;
@@ -43,7 +46,5 @@
       margin-bottom: 3.875rem;
     }
   }
-  
-
 
 }

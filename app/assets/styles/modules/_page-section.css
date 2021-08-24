@@ -5,19 +5,19 @@
     padding: 4.5rem 0;
   }
   
-  &--no-b-padding-until-medium{
+  &--no-b-padding-until-medium {
     padding-bottom: 0;
 
-    @mixin atMedium{
-      padding-bottom:4.5rem;
+    @mixin atMedium {
+      padding-bottom: 4.5rem;
     }
   }
 
-  &--no-b-padding-until-large{
+  &--no-b-padding-until-large {
     padding-bottom: 0;
 
-    @mixin atLarge{
-      padding-bottom:4.5rem;
+    @mixin atLarge {
+      padding-bottom: 4.5rem;
     }
   }
 
@@ -26,12 +26,13 @@
     color: #FFF;
   }
 
-  &--testimonials{
+  &--testimonials {
     background-color: #e0e6ef;
-    @mixin atLarge{
+
+    @mixin atLarge {
       background: url('assets/images/testimonials-bg.jpg') top center no-repeat;
       background-size: cover;
     }
-    
   }
+
 }
